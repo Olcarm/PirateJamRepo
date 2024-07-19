@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9b58c190cb2431d4093448a8640d6440, type: 3}
-  m_Name: Capsule
+  m_Name: JackoHead
   m_EditorClassIdentifier: 
-  displayName: Capsule
-  icon: {fileID: 10915, guid: 0000000000000000f000000000000000, type: 0}
-  itemObject: {fileID: 2681396180456658484, guid: 647878cd477d2164691ac46706e582fe, type: 3}
+  displayName: JackoHead
+  icon: {fileID: 21300000, guid: 83d96cb017ee72449a1ed3b8f1d9af42, type: 3}
+  itemObject: {fileID: 99099744517445973, guid: a1ebe84dd02a080449a60e12240712fc, type: 3}
