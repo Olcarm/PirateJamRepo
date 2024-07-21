@@ -1,9 +1,8 @@
-using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Circle : MonoBehaviour, ICollectible
+public class ItemScript : MonoBehaviour ,ICollectible
 {
     private Vector2 position;
     private GameObject player;
@@ -12,10 +11,10 @@ public class Circle : MonoBehaviour, ICollectible
         position = transform.position;
         player = GameObject.FindGameObjectWithTag("Player");
     }
-    public static event HandleCircleCollected OnCircleCollected;
-    public delegate void HandleCircleCollected(ItemData itemdata, Vector2 position);
+    public static event HandleItemCollected OnItemCollected;
+    public delegate void HandleItemCollected(ItemData itemdata, Vector2 position);
     [SerializeField]
-    public ItemData circleData;
+    public ItemData itemData;
 
     private void Update()
     {
@@ -27,7 +26,6 @@ public class Circle : MonoBehaviour, ICollectible
     public void Collect()
     {
         Destroy(gameObject);
-        OnCircleCollected?.Invoke(circleData, position);
+        OnItemCollected?.Invoke(itemData, position);
     }
-
 }

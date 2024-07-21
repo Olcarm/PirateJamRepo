@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 982739261296906714}
   - component: {fileID: 2370181792026397565}
   - component: {fileID: 2324380593058840134}
-  - component: {fileID: 1219285688101087836}
+  - component: {fileID: 3672187817767244036}
   m_Layer: 0
   m_Name: Cookie
   m_TagString: Untagged
@@ -121,7 +121,7 @@ CircleCollider2D:
   m_Offset: {x: 0.0034596373, y: -0.020757515}
   serializedVersion: 2
   m_Radius: 0.17133865
---- !u!114 &1219285688101087836
+--- !u!114 &3672187817767244036
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -130,7 +130,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 913536860838116226}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3f6ee8ccfddd84347bb0f129db476f6c, type: 3}
+  m_Script: {fileID: 11500000, guid: 4936b6cddbab8ad49b54d453ec585bb6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  circleData: {fileID: 11400000, guid: da5180ad275971b4f9819b4fbb792876, type: 2}
+  itemData: {fileID: 11400000, guid: da5180ad275971b4f9819b4fbb792876, type: 2}
